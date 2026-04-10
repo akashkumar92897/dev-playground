@@ -1,0 +1,6 @@
+1. What will the following print in JS?
+    console.log ("har\"".length)
+2. Explore the includes, startswith & endswith functions of a string
+3. Extract the amount out of this string 
+    "Please give Rs. 1000"
+4. Try to change 4th character of a given string. Were you able to do it?

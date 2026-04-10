@@ -1,0 +1,36 @@
+<!-- Create a navbar and change the color of its first element to red. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar Example</title>
+    <style>
+        .navbar {
+            display: flex;
+            gap: 20px;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#" id="firstItem">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <script>
+        document.getElementById("firstItem").style.color = "red";
+    </script>
+
+</body>
+</html>

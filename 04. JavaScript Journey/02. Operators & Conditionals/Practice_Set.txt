@@ -1,0 +1,5 @@
+1. Use logical operator to find whether the age of a person lies between 10 and 20.
+2. Demonstrate the use of Switch case statements in JS.
+3. Write a JS program to find whether a number is divisible by 2 & 3.
+4. Write a JS program to find whether a number is divisible by either 2 or 3.
+5. Print "You Can Drive!" or "You Can't Drive!" based on age being greater than 18 using ternary operator.

@@ -1,0 +1,1 @@
+// 1. Write a JS program to print the following after 2 second delay.  =>  Hello (enter) World

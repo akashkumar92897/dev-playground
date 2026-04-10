@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>searchingTheDOM</title>
+
+    <style>
+        .box {
+            margin: 5px;
+            padding: 5px;
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            border: 2px solid black;
+        }
+
+        .special {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 id="title">DOM Searching Practice</h2>
+
+    <div class="container" id="mainContainer">
+        <div class="box" name="boxName">box 1</div>
+        <div class="box" name="boxName">box 2</div>
+        <div class="box special" name="boxName">box 3</div>
+        <div class="box">box 3.5</div>
+        <div id="green" class="box">box 4</div>
+        <div class="box">box 5</div>
+    </div>
+
+    <script src="searchingTheDOM.js"></script>
+</body>
+</html>

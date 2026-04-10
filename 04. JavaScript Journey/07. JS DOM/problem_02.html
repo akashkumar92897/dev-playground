@@ -1,0 +1,59 @@
+<!-- Create a table without tbody. Now use "View page source" button to check whether it has a tbody or not. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table Without Tbody</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        th, td {
+            border: 2px solid black;
+            padding: 10px;
+        }
+        th {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Akash</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Rahul</td>
+            <td>24</td>
+        </tr>
+    </table>
+
+    <script>
+        document.body.firstElementChild
+        // <table>​…​</table>​
+
+        document.body.firstElementChild.tBodies
+        // HTMLCollection [tbody]
+    
+        document.body.firstElementChild.tBodies[0]
+        // <tbody>
+        // ​    <tr>​…​</tr>
+        // ​    <tr>​…​</tr>
+        //  ​   <tr>​…​</tr>​
+        // </tbody>​
+        
+        document.body.firstElementChild.tBodies[0].children
+        // HTMLCollection(3) [tr, tr, tr]
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,1 @@
+// 2. Write a JS program to find average of numbers in an array using spread syntax.

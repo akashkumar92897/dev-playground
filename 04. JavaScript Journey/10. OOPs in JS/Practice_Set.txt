@@ -1,0 +1,5 @@
+1. Create a JS c;ass tp create a complex number. Create a constructor to set the real and the complex part.
+2. Write a method to add two complex numbers in the above class.
+3. Create a c;ass student from a class Human. Override a method to see changes.
+4. See if student is an instance of Human using instanceof Keyword.
+5. Use getters & setters to set and get the real and imaginary parts of the complex number.

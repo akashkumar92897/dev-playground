@@ -1,0 +1,29 @@
+Exercise 1 - Guess the Number.
+    Write a JS program to generate a random number and store it in a varibale. The program then takes an input from the user to tell them whether the fuess was correct, greater or lesser than the origin al number.
+    100 - (no of guesses) is the score of the user. The program is expected to terminate once the number is guessed. Number should be between 1-100.
+
+Exercise 2 - Snake, Water, Gun
+    Use JS to create a game of snale, water & Gun. The game should ask you to em=nter S, W or G. The computer shoyld be able to randomly generate S, W or G and declare Win or Loss using alert. Use confirm and prompt wherever required.
+
+Exercise 3 - Tell me a Joke.
+    elem,innerHTML is used to populate a div with HTML. Search online about this method and create a website with a div tag containing a random joke given an array of jokes. Use Math.random and fetch jokes from the internet (use any website to create the array). Your website should show a random joke on every reload. Min length of your jokes array should be 10.
+
+Exercise 4 - Digital Clock
+    Create a digital seconds clock using setInterval and Date object in JS. The date object can be used to get the date, time, hours, and seconds which can be updated using setInterval. Try to keep the UI good looking.
+
+Exercise 5 - Hackerman
+    Write a JS program to pretend to look like a hacker. Write an async function which will simply display the following output:
+    Initializing Hack Program.......
+    Hacking Akash's Username.......
+    Username found akashkumar92897......
+    Connection to Instagram.......
+    Try to use HTML & styling
+
+Exercise 6 - To-Do List
+    Create a To-do list app capable of storing your to-do's in local storage. Add an option to create, delete and access all the to-do's. Try to make UI as good as possible.
+
+Exercise 7 - Password Generator
+    Create a JS program capable of generating a password which contains atleast one lowercase, one uppercase and one special characters. Create a password class to acheive the same.
+
+Exercise 8 - Alarm Clock
+    The HTML AudioElement interface can be used to play audio in the browser. Create an alarm clock which displays time and plays sound at a used specific time.

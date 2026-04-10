@@ -1,0 +1,4 @@
+1. Write a JS program to print the following after 2 second delay.  =>  Hello (enter) World
+2. Write a JS program to find average of numbers in an array using spread syntax.
+3. Write a JS function which resolves a Promise after n seconds. The function takes n as the parameter. Use an IIFE to execute the function with different values of n.
+4. Write a Simple Interest calculator using JS.

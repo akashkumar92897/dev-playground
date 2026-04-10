@@ -1,0 +1,40 @@
+<!-- Write a JS code to change background of all <li> tags to cyan. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Change LI Background</title>
+    <style>
+        ul {
+            width: 200px;
+            margin: 30px auto;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+            padding: 10px;
+            margin: 5px 0;
+            background-color: lightgray;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+
+    <script>
+        let items = document.getElementsByTagName("li");
+        for (let i = 0; i < items.length; i++) {
+            items[i].style.backgroundColor = "cyan";
+        }
+    </script>
+
+</body>
+</html>

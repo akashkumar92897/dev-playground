@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Again</title>
+</head>
+
+<body>
+    // Write a program to print "Try Again" until the user enters the correct Number.
+    <script>
+        let correctNumber = 7;
+        let userInput = Number(prompt("Enter a number:"));
+
+        while (userInput !== correctNumber) {
+            console.log("Try Again");
+            userInput = Number(prompt("Enter a number:"));
+        }
+
+        console.log("Correct Number!");
+
+
+        //do-while
+        // let correctNumber = 7;
+        // let userInput;
+
+        // do {
+        // userInput = Number(prompt("Enter a number:"));
+
+        // if (userInput !== correctNumber) {
+        // console.log("Try Again");
+        // }
+        // } while (userInput !== correctNumber);
+
+        // console.log("Correct Number!");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+// Create an array of square of given numbers.

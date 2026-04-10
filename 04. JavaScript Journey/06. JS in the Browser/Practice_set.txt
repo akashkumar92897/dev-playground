@@ -1,0 +1,5 @@
+1. Write a program using prompt function to take input of age as a value from the user and use alert to tell him if he can drive.
+2. In Q1 use confirm to ask the user if he wants to see the prompt again.
+3. In the previous question, use console.error to log the error if the age entered is negative.
+4. Write a program to change the URL to google.com (Redirection), if user enters a number greater than 4.
+5. Change the backgrounf of the page to yellow, red or any other color based on the user input through prompt.

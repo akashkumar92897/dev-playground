@@ -1,0 +1,4 @@
+1. Write a program to load a JS file in a browser using promises. Use then() to display an object when the load is complete.
+2. Write the same program from previous question and use async/await syntax.
+3. Create a promise which rejects after 3 seconds. Use an async/await to get its value. Use a try catch to handle its error.
+4. Write a program using promise.all() inside an async/await to aqait 3 promises. Compare its results with the case where we await these promises one by one.

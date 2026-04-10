@@ -1,0 +1,5 @@
+1. Create an array of numbers and take input from the user to add numbers to this array.
+2. Keep adding numbers to the array in 1 unitl 0 is added to the array.
+3. Filter for numbers divisible by 10 from a given array.
+4. Create an array of square of given numbers.
+5. Use reduce to calculate factorial of a given number from an array of first n natural numbers. 

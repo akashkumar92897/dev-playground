@@ -1,0 +1,1 @@
+// Use reduce to calculate factorial of a given number from an array of first n natural numbers. 
